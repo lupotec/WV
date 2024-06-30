@@ -13,4 +13,5 @@ Groovy DSL
 # Koppel je app aan <a href='https://console.firebase.google.com'>'https://console.firebase.google.com</a> om push notifications te verkrijgen/versturen
 Maak een leeg project aan in de online Firebase console en geef het een naam.<br>
 Open je Android project en ga naar tools > Firebase > Cloud Messaging > Set up Firebase Cloud Messaging > Connect your app to Firebase > Connect to Firebase<br>
-Add project indien er nog geen bestaat. en koppel je Android app aan het Firebase project.<br>
+Add project indien er nog geen bestaat. Koppel je Android app aan het Firebase project.<br>
+Add FCM to your project. (Tools > Firebase) Dit zal je build.gradle (project en app) bestanden wijzigen.
