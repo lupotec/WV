@@ -5,7 +5,7 @@ Language= Java,
 API24 Nougat Android 7,  
 Groovy DSL
 
-# Wijzig volgende bestanden
+# Wijzig volgende bestanden om een webview te genereren
 activity_main.xml
 AndroidManifest.xml
 MainActivity.java -> Pas de url aan
