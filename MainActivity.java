@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         WebView webView = findViewById(R.id.web);
 
         // loading https://www.geeksforgeeks.org url in the WebView.
-        webView.loadUrl("https://www.geeksforgeeks.org");
+        webView.loadUrl("https://www.campustoverfluit.be");
 
         // this will enable the javascript.
         webView.getSettings().setJavaScriptEnabled(true);
