@@ -1,8 +1,8 @@
 # Maak een project aan 
-Empty Views Activity,
-naam project,
-Language= Java,
-API24 Nougat Android 7,  
+Empty Views Activity,<br>
+naam project,<br>
+Language= Java,<br>
+API24 Nougat Android 7,  <br>
 Groovy DSL
 
 # Wijzig volgende bestanden om een webview te genereren
