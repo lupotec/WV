@@ -1,4 +1,4 @@
-# Maak een project aan 
+# Maak een nieuw leeg project aan 
 Empty Views Activity,<br>
 naam project,<br>
 Language= Java,<br>
