@@ -6,7 +6,7 @@ API24 Nougat Android 7,  <br>
 Groovy DSL
 
 # Wijzig volgende bestanden om een webview te genereren
-activity_main.xml<br>
-AndroidManifest.xml<br>
-MainActivity.java -> Pas de url aan
+<a href='https://github.com/lupotec/WV/blob/main/activity_main.xml'>activity_main.xml</a><br>
+<a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml'>AndroidManifest.xml</a><br>
+<a href='https://github.com/lupotec/WV/blob/main/MainActivity.java'>MainActivity.java</a> -> Pas de url aan
 
