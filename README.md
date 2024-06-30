@@ -11,4 +11,4 @@ Groovy DSL
 <a href='https://github.com/lupotec/WV/blob/main/MainActivity.java'>MainActivity.java</a> -> Pas de url aan
 
 # Koppel je app aan <a href='https://console.firebase.google.com'>'https://console.firebase.google.com</a> om push notifications te verkrijgen/versturen
-Open je project en ga naar tools > Firebase<br>
+Open je project en ga naar tools > Firebase > Cloud Messaging > Set up Firebase Cloud Messaging > Connect your app to Firebase<br>
