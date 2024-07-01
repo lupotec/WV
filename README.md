@@ -20,3 +20,4 @@ Scroll naar onder en download het google-services.json bestand.<br>
 Plaats het google-services.json bestand in de app dir van je Android project.<br>
 
 maak de PushNotificationService.java file aan onder app > java
+wijzig de code in AndroidManifest.xml door de code in <a href='https://github.com/lupotec/WV/blob/main/activity_main_v2.0.xml'>activity_main_v2.0.xml</a><br>
