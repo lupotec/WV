@@ -21,13 +21,13 @@ RUN APP
 *Add project indien er nog geen bestaat. Koppel je Android app aan het Firebase project.<br>
 *Add FCM to your project. (<b>Tools > Firebase</b>) Dit zal je build.gradle (project en app) bestanden wijzigen.<br>
 *Ga naar je Firebase console en klik op het tandwielje bij je project.<br>
-*Scroll naar onder en download het google-services.json bestand.<br>
-*Plaats het google-services.json bestand in de app dir van je Android project.<br>
+*Scroll naar onder en download het <i>google-services.json</i> bestand.<br>
+*Plaats het <i>google-services.json</i> bestand in de app dir van je Android project.<br>
 
-*maak de PushNotificationService.java file aan onder <b>app > java</b><br>
-*wijzig de code in AndroidManifest.xml door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a><br>
+*maak de <i>PushNotificationService.java</i> file aan onder <b>app > java</b><br>
+*wijzig de code in <i>AndroidManifest.xml</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a><br>
 
-*wijzig de code in Main_Activity.java door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
+*wijzig de code in <i>Main_Activity.java</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
 
 # Permissions vragen voor push notifications wanneer we de app installeren.
 *Wanneer we de app gaan installeren willen we eerst toelating vragen om push notifications te versturen. Verwijder daarom eerst de app volledig van het device.<br>
