@@ -18,3 +18,5 @@ Add FCM to your project. (Tools > Firebase) Dit zal je build.gradle (project en 
 Ga naar je Firebase console en klik op het tandwielje bij je project.<br>
 Scroll naar onder en download het google-services.json bestand.<br>
 Plaats het google-services.json bestand in de app dir van je Android project.<br>
+
+maak de PushNotificationService.java file aan onder app > java
