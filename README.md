@@ -27,4 +27,14 @@ Groovy DSL
 # Permissions vragen voor push notifications wanneer we de app installeren.
 *Wanneer we de app gaan installeren willen we eerst toelating vragen om push notifications te versturen. Verwijder daarom eerst de app volledig van het device.<br>
 <b>Home knop > Swipe van onder naar boven > blijf linkermuisknop ingedrukt houden op icoon boven de pagina > app info > uninstall > ok</b>.<br><br>
-*Pas aan:
+*Pas aan:<br>
+# Test.
+*Ga via de browser naar de pagina https://gridz.be/get.php?fcm=testcode&naam=ikzelf<br>
+Je zal merken dat alle ontvangen GET variabelen worden weergegeven. Wanneer we de fcm-code of unieke app-code gaan opslaan, kan je naar dit specifiek toestel een push-notification sturen. <br><br>
+*Ga naar je <a href='https://console.firebase.google.com'>Firebase console</a>.<br>
+*Scroll in het linkermenu naar onderen en ga naar <b>Run > Messaging</b><br>
+*Start een <b>new campain (Notifications)</b><br>
+*Geef een notification title en een notification text. Image is niet verplicht.<br>
+<b>send test message > Add FCM device token (die je hebt gekopieerd via de webpagina) en plak de token die > + > Test</b><br>
+*In de linkerbovenhoek van je device, zie je nu een bolletje staan. Je hebt de melding ontvangen. Sleep naar onderen om te openen.<br>
+
