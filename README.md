@@ -28,7 +28,7 @@ RUN APP
 *Wijzig de code in PushNotificationService.java door de <a href='https://github.com/lupotec/WV/blob/main/PushNotificationService.java'>PushNotificationService.java</a> code en pas de package name aan op lijn 1.<br>
 *wijzig de code in <i>AndroidManifest.xml</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a>. Wijzig opnieuw het thema.<br>
 
-*wijzig de code in <i>Main_Activity.java</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
+*wijzig de code in <i>Main_Activity.java</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a>. Wijzig de package name.<br>
 
 # Permissions vragen voor push notifications wanneer we de app installeren.
 *Wanneer we de app gaan installeren willen we eerst toelating vragen om push notifications te versturen. Verwijder daarom eerst de app volledig van het device.<br>
