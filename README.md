@@ -26,7 +26,7 @@ RUN APP
 
 *maak de <i>PushNotificationService.java</i> file aan onder <b>app > java</b> onder je projectnaam. Hoort bij MainActivity.java<br>
 *Wijzig de code in PushNotificationService.java door de <a href='https://github.com/lupotec/WV/blob/main/PushNotificationService.java'>PushNotificationService.java</a> code en pas de package name aan op lijn 1.<br>
-*wijzig de code in <i>AndroidManifest.xml</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a><br>
+*wijzig de code in <i>AndroidManifest.xml</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a>. Wijzig opnieuw het thema.<br>
 
 *wijzig de code in <i>Main_Activity.java</i> door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
 
