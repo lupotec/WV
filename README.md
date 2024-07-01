@@ -19,7 +19,7 @@ Groovy DSL
 *Scroll naar onder en download het google-services.json bestand.<br>
 *Plaats het google-services.json bestand in de app dir van je Android project.<br>
 
-*maak de PushNotificationService.java file aan onder app > java
+*maak de PushNotificationService.java file aan onder <b>app > java</b><br>
 *wijzig de code in AndroidManifest.xml door de code in <a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml_V2.0'>AndroidManifest.xml_V2.0</a><br>
 
 *wijzig de code in Main_Activity.java door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
