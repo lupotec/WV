@@ -24,3 +24,6 @@ wijzig de code in AndroidManifest.xml door de code in <a href='https://github.co
 
 wijzig de code in Main_Activity.java door de code in <a href='https://github.com/lupotec/WV/blob/main/Main_Activity.java_V2.0'>Main_Activity.java_V2.0</a><br>
 Main_Activity.java_V2.0
+
+# permissions voor push notifications
+Wanneer we de app gaan installeren willen we eerst toelating vragen om push notifications te versturen.<br>
