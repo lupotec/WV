@@ -26,5 +26,5 @@ Groovy DSL
 
 # Permissions vragen voor push notifications wanneer we de app installeren.
 *Wanneer we de app gaan installeren willen we eerst toelating vragen om push notifications te versturen. Verwijder daarom eerst de app volledig van het device.<br>
-<b>Home knop > Swipe van onder naar boven > app instellingen > blijf linkermuisknop ingedrukt houden op icoon boven de pagina > verwijder de app</b>.<br><br>
+<b>Home knop > Swipe van onder naar boven > blijf linkermuisknop ingedrukt houden op icoon boven de pagina > app info > verwijder de app</b>.<br><br>
 *Pas aan:
