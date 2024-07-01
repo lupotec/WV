@@ -7,7 +7,7 @@ Groovy DSL
 
 # Wijzig volgende bestanden om een webview te genereren.
 *<a href='https://github.com/lupotec/WV/blob/main/activity_main.xml'>activity_main.xml</a> -> recht bovenaan code<br>
-*<a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml'>AndroidManifest.xml</a><br>
+*<a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml'>AndroidManifest.xml</a> -> let op de juiste package name bovenaan<br>
 *<a href='https://github.com/lupotec/WV/blob/main/MainActivity.java'>MainActivity.java</a> -> Pas de url aan
 
 # Koppel je app aan <a href='https://console.firebase.google.com'>https://console.firebase.google.com</a> om push notifications te verkrijgen/versturen.
