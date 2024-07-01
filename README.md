@@ -9,6 +9,7 @@ Groovy DSL
 *<a href='https://github.com/lupotec/WV/blob/main/activity_main.xml'>activity_main.xml</a><br>
 -> recht bovenaan code<br>
 *<a href='https://github.com/lupotec/WV/blob/main/AndroidManifest.xml'>AndroidManifest.xml</a><br>
+-> ps het thema aan <i>android:theme="@style/Theme.Gridz"</i> zie <b>res > values > themes > themes.xml<b> (kijk naar de parent name)<br>
 *<a href='https://github.com/lupotec/WV/blob/main/MainActivity.java'>MainActivity.java</a><br>
 -> Pas de url aan<br>
 -> let op de juiste package name bovenaan<br>
