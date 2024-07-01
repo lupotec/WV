@@ -1,20 +1,26 @@
-package be.app.blank;
+package be.app.gridzbe;
 
+
+import android.content.pm.PackageManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.messaging.FirebaseMessaging;
+import android.Manifest;
+import android.os.Build;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
+
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
+    private static final int REQUEST_NOTIFICATION_PERMISSION = 1;
     private WebView webView;
 
     @Override
@@ -31,6 +37,19 @@ public class MainActivity extends AppCompatActivity {
         // Set a WebViewClient to handle onPageFinished and URL loading
         webView.setWebViewClient(new WebViewClient());
 
+        // Check notification permissions and request if not granted
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (ContextCompat.checkSelfPermission(this, Manifest.permission.POST_NOTIFICATIONS) != PackageManager.PERMISSION_GRANTED) {
+                ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.POST_NOTIFICATIONS}, REQUEST_NOTIFICATION_PERMISSION);
+            } else {
+                initializeFirebaseMessaging();
+            }
+        } else {
+            initializeFirebaseMessaging();
+        }
+    }
+
+    private void initializeFirebaseMessaging() {
         // Retrieve the Firebase token
         FirebaseMessaging.getInstance().getToken()
                 .addOnCompleteListener(new OnCompleteListener<String>() {
@@ -46,11 +65,25 @@ public class MainActivity extends AppCompatActivity {
                         Log.d(TAG, "FCM Token: " + token);
 
                         // Construct the URL with the FCM token
-                        String url = "https://www.gridz.be/get.php?os=an&fcm=" + token;
+                        String url = "https://www.gridz.be/app2.php?os=an&fcm=" + token;
 
                         // Load the URL in the WebView
                         webView.loadUrl(url);
                     }
                 });
+    }
+
+    @Override
+    public void onRequestPermissionsResult(int requestCode, @NonNull String[] permissions, @NonNull int[] grantResults) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults);
+        if (requestCode == REQUEST_NOTIFICATION_PERMISSION) {
+            if (grantResults.length > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                // Permission granted
+                initializeFirebaseMessaging();
+            } else {
+                // Permission denied
+                Log.w(TAG, "Notification permission denied");
+            }
+        }
     }
 }
